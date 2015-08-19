@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185D69201B84678100A37541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D691F1B84678100A37541 /* main.m */; };
+		185D69231B84678100A37541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D69221B84678100A37541 /* AppDelegate.m */; };
+		185D69291B84678100A37541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D69271B84678100A37541 /* Main.storyboard */; };
+		185D692B1B84678100A37541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185D692A1B84678100A37541 /* Images.xcassets */; };
+		185D692E1B84678100A37541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185D692C1B84678100A37541 /* LaunchScreen.xib */; };
+		185D693A1B84678100A37541 /* HYMonitorTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D69391B84678100A37541 /* HYMonitorTextFieldTests.m */; };
+		185D69561B84716B00A37541 /* HYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D69551B84716B00A37541 /* HYViewController.m */; };
+		185D69571B84716B00A37541 /* HYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D69551B84716B00A37541 /* HYViewController.m */; };
+		18F3F7101B84AFD90092B54A /* HYKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3F70C1B84AFD90092B54A /* HYKeyboardToolbar.m */; };
+		18F3F7111B84AFD90092B54A /* HYKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3F70C1B84AFD90092B54A /* HYKeyboardToolbar.m */; };
+		18F3F7121B84AFD90092B54A /* HYKeyboardToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F70D1B84AFD90092B54A /* HYKeyboardToolbar.xib */; };
+		18F3F7131B84AFD90092B54A /* HYKeyboardToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F3F70D1B84AFD90092B54A /* HYKeyboardToolbar.xib */; };
+		18F3F7141B84AFD90092B54A /* HYMonitorTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3F70F1B84AFD90092B54A /* HYMonitorTextField.m */; };
+		18F3F7151B84AFD90092B54A /* HYMonitorTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3F70F1B84AFD90092B54A /* HYMonitorTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185D69341B84678100A37541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185D69121B84678100A37541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185D69191B84678100A37541;
+			remoteInfo = HYMonitorTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185D691A1B84678100A37541 /* HYMonitorTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMonitorTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185D691E1B84678100A37541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185D691F1B84678100A37541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185D69211B84678100A37541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185D69221B84678100A37541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185D69281B84678100A37541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185D692A1B84678100A37541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		185D692D1B84678100A37541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		185D69331B84678100A37541 /* HYMonitorTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYMonitorTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185D69381B84678100A37541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185D69391B84678100A37541 /* HYMonitorTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMonitorTextFieldTests.m; sourceTree = "<group>"; };
+		185D69541B84716B00A37541 /* HYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYViewController.h; sourceTree = "<group>"; };
+		185D69551B84716B00A37541 /* HYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYViewController.m; sourceTree = "<group>"; };
+		18F3F70B1B84AFD90092B54A /* HYKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKeyboardToolbar.h; sourceTree = "<group>"; };
+		18F3F70C1B84AFD90092B54A /* HYKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKeyboardToolbar.m; sourceTree = "<group>"; };
+		18F3F70D1B84AFD90092B54A /* HYKeyboardToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYKeyboardToolbar.xib; sourceTree = "<group>"; };
+		18F3F70E1B84AFD90092B54A /* HYMonitorTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMonitorTextField.h; sourceTree = "<group>"; };
+		18F3F70F1B84AFD90092B54A /* HYMonitorTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMonitorTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185D69171B84678100A37541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D69301B84678100A37541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185D69111B84678100A37541 = {
+			isa = PBXGroup;
+			children = (
+				185D691C1B84678100A37541 /* HYMonitorTextField */,
+				185D69361B84678100A37541 /* HYMonitorTextFieldTests */,
+				185D691B1B84678100A37541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185D691B1B84678100A37541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185D691A1B84678100A37541 /* HYMonitorTextField.app */,
+				185D69331B84678100A37541 /* HYMonitorTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185D691C1B84678100A37541 /* HYMonitorTextField */ = {
+			isa = PBXGroup;
+			children = (
+				18F3F70A1B84AF750092B54A /* HYMonitor */,
+				18F3F71A1B84B5B90092B54A /* controller */,
+				185D691D1B84678100A37541 /* Supporting Files */,
+			);
+			path = HYMonitorTextField;
+			sourceTree = "<group>";
+		};
+		185D691D1B84678100A37541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185D69211B84678100A37541 /* AppDelegate.h */,
+				185D69221B84678100A37541 /* AppDelegate.m */,
+				185D69271B84678100A37541 /* Main.storyboard */,
+				185D692A1B84678100A37541 /* Images.xcassets */,
+				185D692C1B84678100A37541 /* LaunchScreen.xib */,
+				185D691E1B84678100A37541 /* Info.plist */,
+				185D691F1B84678100A37541 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185D69361B84678100A37541 /* HYMonitorTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				185D69391B84678100A37541 /* HYMonitorTextFieldTests.m */,
+				185D69371B84678100A37541 /* Supporting Files */,
+			);
+			path = HYMonitorTextFieldTests;
+			sourceTree = "<group>";
+		};
+		185D69371B84678100A37541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185D69381B84678100A37541 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F3F70A1B84AF750092B54A /* HYMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				18F3F70B1B84AFD90092B54A /* HYKeyboardToolbar.h */,
+				18F3F70C1B84AFD90092B54A /* HYKeyboardToolbar.m */,
+				18F3F70D1B84AFD90092B54A /* HYKeyboardToolbar.xib */,
+				18F3F70E1B84AFD90092B54A /* HYMonitorTextField.h */,
+				18F3F70F1B84AFD90092B54A /* HYMonitorTextField.m */,
+			);
+			name = HYMonitor;
+			path = ../HYMonitor;
+			sourceTree = "<group>";
+		};
+		18F3F71A1B84B5B90092B54A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				185D69541B84716B00A37541 /* HYViewController.h */,
+				185D69551B84716B00A37541 /* HYViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185D69191B84678100A37541 /* HYMonitorTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185D693D1B84678100A37541 /* Build configuration list for PBXNativeTarget "HYMonitorTextField" */;
+			buildPhases = (
+				185D69161B84678100A37541 /* Sources */,
+				185D69171B84678100A37541 /* Frameworks */,
+				185D69181B84678100A37541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYMonitorTextField;
+			productName = HYMonitorTextField;
+			productReference = 185D691A1B84678100A37541 /* HYMonitorTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185D69321B84678100A37541 /* HYMonitorTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185D69401B84678100A37541 /* Build configuration list for PBXNativeTarget "HYMonitorTextFieldTests" */;
+			buildPhases = (
+				185D692F1B84678100A37541 /* Sources */,
+				185D69301B84678100A37541 /* Frameworks */,
+				185D69311B84678100A37541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185D69351B84678100A37541 /* PBXTargetDependency */,
+			);
+			name = HYMonitorTextFieldTests;
+			productName = HYMonitorTextFieldTests;
+			productReference = 185D69331B84678100A37541 /* HYMonitorTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185D69121B84678100A37541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.scxingdun;
+				TargetAttributes = {
+					185D69191B84678100A37541 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					185D69321B84678100A37541 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 185D69191B84678100A37541;
+					};
+				};
+			};
+			buildConfigurationList = 185D69151B84678100A37541 /* Build configuration list for PBXProject "HYMonitorTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185D69111B84678100A37541;
+			productRefGroup = 185D691B1B84678100A37541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185D69191B84678100A37541 /* HYMonitorTextField */,
+				185D69321B84678100A37541 /* HYMonitorTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185D69181B84678100A37541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D69291B84678100A37541 /* Main.storyboard in Resources */,
+				185D692E1B84678100A37541 /* LaunchScreen.xib in Resources */,
+				185D692B1B84678100A37541 /* Images.xcassets in Resources */,
+				18F3F7121B84AFD90092B54A /* HYKeyboardToolbar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D69311B84678100A37541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3F7131B84AFD90092B54A /* HYKeyboardToolbar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185D69161B84678100A37541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3F7141B84AFD90092B54A /* HYMonitorTextField.m in Sources */,
+				185D69561B84716B00A37541 /* HYViewController.m in Sources */,
+				185D69231B84678100A37541 /* AppDelegate.m in Sources */,
+				185D69201B84678100A37541 /* main.m in Sources */,
+				18F3F7101B84AFD90092B54A /* HYKeyboardToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D692F1B84678100A37541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D69571B84716B00A37541 /* HYViewController.m in Sources */,
+				18F3F7151B84AFD90092B54A /* HYMonitorTextField.m in Sources */,
+				185D693A1B84678100A37541 /* HYMonitorTextFieldTests.m in Sources */,
+				18F3F7111B84AFD90092B54A /* HYKeyboardToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185D69351B84678100A37541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185D69191B84678100A37541 /* HYMonitorTextField */;
+			targetProxy = 185D69341B84678100A37541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185D69271B84678100A37541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185D69281B84678100A37541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185D692C1B84678100A37541 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185D692D1B84678100A37541 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185D693B1B84678100A37541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185D693C1B84678100A37541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185D693E1B84678100A37541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYMonitorTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185D693F1B84678100A37541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYMonitorTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185D69411B84678100A37541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYMonitorTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYMonitorTextField.app/HYMonitorTextField";
+			};
+			name = Debug;
+		};
+		185D69421B84678100A37541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYMonitorTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYMonitorTextField.app/HYMonitorTextField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185D69151B84678100A37541 /* Build configuration list for PBXProject "HYMonitorTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D693B1B84678100A37541 /* Debug */,
+				185D693C1B84678100A37541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185D693D1B84678100A37541 /* Build configuration list for PBXNativeTarget "HYMonitorTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D693E1B84678100A37541 /* Debug */,
+				185D693F1B84678100A37541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185D69401B84678100A37541 /* Build configuration list for PBXNativeTarget "HYMonitorTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D69411B84678100A37541 /* Debug */,
+				185D69421B84678100A37541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185D69121B84678100A37541 /* Project object */;
+}
