@@ -1,8 +1,10 @@
+
 # HYMonitorTextField
+
 解决键盘遮挡TextField问题
 
 使用方法:
-导入文件到工程中: HYMonitorTextField.h / HYMonitorTextField.m / HYKeyboardToolbar.h / HYKeyboardToolbar.m / HYKeyboardToolbar.xib
+拖入文件到工程中: < HYMonitor >
 
 
 
@@ -20,15 +22,29 @@ self.hyMonitor =  [HYMonitorTextField monitorWithView:self.view];
     
 
 }
+
+//键盘显示时调用
 -(void)keyboardWillShow:(NSNotification *)notifi{
     
-    [self.hyMonitor show:notifi];
+    //第二个属性是文本框与键盘的间距
+    
+    [self.hyMonitor keyboardShow:notifi andkeyboardSpacing:10];
+    
 }
+
+//键盘消失时调用
 -(void)keyboardWillHide{
 
-    [self.hyMonitor hide];
+    [self.hyMonitor keyboardHide];
 }
 
 
+//取消编辑
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
 
 
+        __   新手上路多多支持 ->  285588504@qq.com  ___
+                            
