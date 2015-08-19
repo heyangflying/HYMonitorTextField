@@ -24,6 +24,9 @@ self.hyMonitor =  [HYMonitorTextField monitorWithView:self.view];
 }
 
 //键盘显示时调用
+
+
+
 -(void)keyboardWillShow:(NSNotification *)notifi{
     
     //第二个属性是文本框与键盘的间距
@@ -33,6 +36,9 @@ self.hyMonitor =  [HYMonitorTextField monitorWithView:self.view];
 }
 
 //键盘消失时调用
+
+
+
 -(void)keyboardWillHide{
 
     [self.hyMonitor keyboardHide];
@@ -40,6 +46,8 @@ self.hyMonitor =  [HYMonitorTextField monitorWithView:self.view];
 
 
 //取消编辑
+
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
