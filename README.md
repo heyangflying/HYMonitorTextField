@@ -46,5 +46,5 @@ self.hyMonitor =  [HYMonitorTextField monitorWithView:self.view];
 }
 
 
-        __   新手上路多多支持 ->  285588504@qq.com  ___
+        __   新手上路多多支持 ->     QQ: 285585804  __
                             
