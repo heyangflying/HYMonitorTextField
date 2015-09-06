@@ -3,6 +3,24 @@
 
 解决键盘遮挡TextField问题
 
+
+
+
+
+
+
+
+![image](https://github.com/hy285585804/HYMonitorTextField/blob/master/hy.gif)
+
+
+
+
+
+
+
+
+
+
 使用方法:
 拖入文件到工程中: < HYMonitor >
 
